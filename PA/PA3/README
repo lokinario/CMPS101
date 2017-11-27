@@ -1,0 +1,43 @@
+//----------------
+// README
+// Robert Loquinario
+// rloquina
+// PA3
+//----------------
+
+
+
+In this submission I have included: 
+
+Sparse.java		written by me
+	
+	Usage: Sparse [in] [out]
+	Main client for Matrix ADT, takes in two filenames as parameters. The first
+	file being the input file to read and second to be the output file. The file 
+	is read into two n x n matricies A and B, having only non-zero values stored. 
+	Then operations are called on the matrices such as addition, subtraction, 
+	multiplication, transposing, and scaling. 
+
+Matrix.java		written by me
+	The ADT implemented by an array of Lists. Containing a private class for 
+	Entries that represents the column positions and values as doubles. Contains
+	constructors, access functions, manipulation functions, and other functions
+	that define Matrix as an object.
+
+List.java 		written by me
+
+	ADT module implemented as a doubly linked list that contains the Node class,
+	constructors, access functions, manipulation functions, and other functions
+	that define List.
+
+MatrixTest.java	written by me
+	Test client for Matrix operations
+
+ListTest.java provided, DO NOT ALTER
+	Test client for List operations
+
+Makefile		provided, may alter
+	Creates an executable jar file called Sparse, which is an executable jar file. 
+
+README			written by me
+	README contains a list of all the files submitted with descriptions

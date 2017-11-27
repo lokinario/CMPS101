@@ -1,0 +1,32 @@
+//----------------
+// README
+//Robert Loquinario
+//CMPS 101
+//PA2
+//October 14 2017
+//----------------
+
+
+
+In this submission I have included: 
+
+Lex.c		written by me
+	
+	This program takes 2 .txt console arguments and indirectly sorts the first input lexicographically
+	in order according to the second input file. Printing to the output file. 
+
+List.c		written by me
+
+	ADT module used in Lex.c. Contains doubly linked list ADT and contains set of "mathematical 
+	structures" for this ADT. 
+List.h      written by me
+	List.h is the header for List.c
+
+ListClient.java provided, DO NOT ALTER
+	This file serves to test the List ADT in List.c
+
+Makefile		provided, may alter
+	Creates an executable jar file called Lex, which is an executable jar file. 
+
+README			written by me
+	README contains a list of all the files submitted. 

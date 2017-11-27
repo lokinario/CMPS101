@@ -1,0 +1,40 @@
+//----------------
+// README
+// Robert Loquinario
+// rloquina
+// PA4
+//----------------
+
+
+
+In this submission I have included: 
+
+FindPath.c		written by me
+
+	Usage: FindPath [in] [out]
+	Main client for the Graph ADT, takes in two filenames as parameters. The first
+	file being the input file to read and second to be the output file. 
+	Finds shortest path between verticies using BFS algorithm. 
+
+Graph.c		written by me
+	The Graph ADT implemented by an array of Lists for adjacency of vertices. 
+
+Graph.h 	written by me
+	Header file for Graph.c
+
+GraphTest.c written by me
+	Tests all the functions of Graph.c 
+List.c 		written by me
+
+	ADT module implemented as a doubly linked list that contains the Node class,
+	constructors, access functions, manipulation functions, and other functions
+	that define List.
+
+List.h	written by me
+	Header file for List.c
+
+Makefile		provided, may alter
+	Creates an executable called FindPath for this pa4. 
+
+README			written by me
+	README contains a list of all the files submitted with descriptions
